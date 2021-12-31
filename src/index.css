@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(192, 182, 182);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+header .time h1{
+  font-size: 3rem;
+  padding-bottom: 10px;
+  
+}
+button{
+  width: 30vh;
+  height: 7vh;
+  background-color: rgb(0, 89, 255);
+  font-size: 2rem;
+  color: whitesmoke;
+}
